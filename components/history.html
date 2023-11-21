@@ -1,0 +1,28 @@
+<div class="history-container">
+    <div class="history-head" ng-controller="historyCtrl" ng-repeat="item in historyInfo">
+    <div class="row-1">
+        <h1 class="heading ms-5 mt-3">{{item.title}}</h1>
+    </div>
+    <div class="history-body">
+        <div class="row-12 d-flex">
+            <div class="col-6  mt-5 p-5">
+             <img class="image" src={{item.img}} alt="">
+            </div>
+            <div class="col-6 mt-5 p-5">
+            <h2 class="head1 text-center">{{item.heading}}</h2>
+            <h5 class="des ">{{item.discription}}</h5>
+            </div>
+          
+        </div>
+       <div class="row-12 d-flex">
+        <div class="col-6 mt-5 p-5">
+            <h2 class="head1 text-center" >{{item.heading1}}</h2>
+            <h5 class="des">{{item.discription1}}</h5>
+        </div>
+        <div class="col-6 mt-5 p-5">
+    <img class="image" src={{item.img2}} alt="">
+        </div>
+       </div>
+    </div>
+</div>
+</div>

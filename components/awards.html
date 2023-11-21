@@ -1,0 +1,15 @@
+<div class="award-container">
+    <div class="award-head" ng-controller="awardsCtrl" ng-repeat="item in awardInfo">
+        <div class="row-1">
+            <h1 class="heading ms-5 mt-3">{{item.title}}</h1>
+        </div>
+        <div class="award-body d-flex">
+            <div class="card" ng-repeat="item in awardInfo1">
+                <img src={{item.img}} alt="">
+                <h1>{{item.title}}</h1>
+                <h4>{{item.moy}}</h4>
+                <h6>{{item.des}}</h6>
+            </div>
+        </div>
+    </div>
+</div>
